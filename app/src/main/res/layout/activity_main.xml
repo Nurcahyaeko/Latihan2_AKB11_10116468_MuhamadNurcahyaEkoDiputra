@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80sp"
+        android:src="@drawable/ic_welcome_logo"
+        android:layout_marginTop="120sp"
+        android:layout_gravity="center"
+        />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/putih"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColorHint="@color/text"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:backgroundTint="@color/putih"
+        android:textColorHint="@color/text"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+
+        />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:background="@drawable/btntrnsprn"
+        android:textColor="@color/putih"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginLeft="33dp"
+        />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:background="@color/background"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="OR"
+        android:textColor="@color/putih"/>
+
+    <Button
+        android:id="@+id/btn_connectWithFB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="connect with facebook"
+        android:background="@drawable/btntrnsprn"
+        android:paddingLeft="50dp"
+        android:paddingRight="60dp"
+        android:drawableStart="@drawable/ic_welcome_fb_login"
+        android:textColor="@color/putih"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="33dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="100dp"
+        >
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="doesn't have account ?"
+            android:textSize="15dp"
+            android:background="@color/background"
+            android:textColor="@color/putih"/>
+
+        <EditText
+            android:layout_marginLeft="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Register"
+            android:textSize="15dp"
+            android:textColor="@color/putih"
+            android:background="@color/background"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

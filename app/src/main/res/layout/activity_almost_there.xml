@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlmostThereActivity"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Almost There"
+        android:textSize="35dp"
+        android:textColor="@color/putih"
+        android:layout_marginTop="190dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Almost"
+        android:textSize="16sp"
+        android:textColor="@color/putih"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="35sp"
+        android:paddingRight="35sp"
+        />
+
+    <Button
+        android:layout_marginTop="60sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:background="@drawable/btntrnsprn"
+        android:text="Verivy"
+        android:textColor="@color/putih"
+        />
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Latihan2_AKB11_10116468_MuhamadNurcahyaEkoDiputra</string>
+
+    <string-array name="bloods">
+        <item>Blood Type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="reshus">
+        <item>Reshus</item>
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+
+    <string-array name="job">
+        <item>Job</item>
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    <string name="Almost">Thank you for registering with us. One more\n step, you need yo check your email\n to activate your account</string>
+
+</resources>
