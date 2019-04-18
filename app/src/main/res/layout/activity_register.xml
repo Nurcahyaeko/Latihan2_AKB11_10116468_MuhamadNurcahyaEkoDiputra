@@ -28,53 +28,64 @@
     </LinearLayout>
 
     <EditText
-        android:layout_marginTop="20sp"
+        android:layout_marginTop="6sp"
         android:textSize="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="33dp"
         android:layout_marginRight="33dp"
+        android:textColor="@color/teks1"
+        android:backgroundTint="@color/fontdesk"
         android:hint="Username" />
 
     <EditText
+
         android:textSize="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="33dp"
         android:layout_marginRight="33dp"
+        android:textColor="@color/teks1"
+        android:backgroundTint="@color/fontdesk"
         android:hint="Email" />
     <EditText
+
         android:textSize="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="33dp"
         android:layout_marginRight="33dp"
+        android:textColor="@color/teks1"
+        android:backgroundTint="@color/fontdesk"
         android:hint="Phone Number" />
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
 
         <RadioButton
             android:layout_marginLeft="49dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Male"
-            android:layout_weight="5"/>
+            android:layout_weight="5"
+            android:textColor="@color/teks1"/>
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="5"
-            android:text="Female"/>
+            android:text="Female"
+            android:textColor="@color/teks1"/>
     </RadioGroup>
 
     <LinearLayout
+        android:layout_marginTop="6dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -84,7 +95,7 @@
         </Spinner>
 
         <Spinner
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="40dp"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:entries="@array/reshus"
@@ -92,23 +103,32 @@
         </Spinner>
     </LinearLayout>
     <EditText
+        android:textColor="@color/putih"
+        android:layout_marginTop="6dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="16dp"
         android:hint="Password"
         android:layout_marginLeft="33dp"
+        android:backgroundTint="@color/fontdesk"
         android:layout_marginRight="33dp"/>
     <EditText
+        android:textSize="16dp"
+        android:textColor="@color/putih"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Retype Password"
         android:layout_marginLeft="33dp"
-        android:layout_marginRight="33dp"/>
+        android:layout_marginRight="33dp"
+        android:backgroundTint="@color/fontdesk"/>
     <RadioGroup
+        android:layout_marginTop="6dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <RadioButton
+            android:textColor="@color/teks1"
             android:layout_marginLeft="49dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -116,46 +136,61 @@
             android:layout_weight="5"/>
 
         <RadioButton
+            android:textColor="@color/teks1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="5"
             android:text="Organization"/>
     </RadioGroup>
     <Spinner
+        android:layout_marginTop="6dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="40dp"
         android:layout_marginLeft="33dp"
         android:entries="@array/job">
     </Spinner>
 
     <EditText
+        android:textSize="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Home Address"
         android:layout_marginLeft="33dp"
-        android:layout_marginRight="33dp"/>
+        android:layout_marginRight="33dp"
+        android:textColor="@color/putih"
+        android:backgroundTint="@color/fontdesk"/>
     <EditText
+        android:textSize="16dp"
+        android:textColor="@color/putih"
+        android:layout_marginTop="6dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Default Location"
         android:layout_marginLeft="33dp"
         android:layout_marginRight="33dp"
         android:drawableEnd="@drawable/ic_blood_needed_location"
+
         />
 
     <CheckBox
+        android:layout_marginTop="12dp"
         android:layout_width="match_parent"
+        android:textColor="@color/teks1"
         android:layout_height="wrap_content"
         android:text="Agree with Terms and Condition"
-        android:layout_marginLeft="33dp"/>
+        android:layout_marginLeft="33dp"
+        android:backgroundTint="@color/fontdesk"/>
     <Button
+        android:id="@+id/btn_regis2"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/btnregister"
         android:layout_marginLeft="33dp"
         android:layout_marginRight="33dp"
         android:text="Register"
+        android:textColor="@color/teks1"
         />
 
 
